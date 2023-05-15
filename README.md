@@ -9,7 +9,7 @@ release (latest by date including
 pre-releases)](https://img.shields.io/github/v/release/Jellest/rAHNextract?include_prereleases)
 <!-- badges: end -->
 
-Updated: 15-05-2020
+Updated: 15-05-2023
 
 This R package automatically extracts elevation points or areas of the
 Netherlands from the Actueel Hoogtebestand Nederland (AHN). Individual
@@ -41,7 +41,7 @@ program Rtools is needed. Rtools is not required to make use of the
 ``` r
 library(raster)
 library(devtools)
-devtools::install_github("Jellest/rAHNextract")
+devtools::install_github("mooibroekd/rAHNextract")
 library(rAHNextract)
 ```
 

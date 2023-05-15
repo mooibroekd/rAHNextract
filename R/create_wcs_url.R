@@ -14,7 +14,7 @@
 create_wcs_url <- function(type, bbox, AHN = "AHN3", resolution = 0.5, dem = "DSM", interpolate = TRUE){
 
 
-  wcs_baseUrl = paste0(ngr,"/", tolower(AHN), "/wcs?SERVICE=WCS&VERSION=1.0.0&REQUEST=GetCoverage")
+  wcs_baseUrl = paste0(ngr,"/", tolower(AHN), "/wcs/v1_0?SERVICE=WCS&VERSION=1.0.0&REQUEST=GetCoverage")
 
   #get resolution
   #my_resolution <- get_resolution(AHN= AHN, resolution = resolution)
